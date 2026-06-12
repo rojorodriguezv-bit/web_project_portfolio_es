@@ -3,44 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Prueba</title>
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-
-    <h1>Bienvenido a mi página</h1>
-
-    <p>
-        Este es un párrafo de ejemplo para probar estilos, tamaños de texto
-        y distribución de contenido dentro de una página web.
+<main>
+<section class="container">
+    <h1 class="name">Mariana<br>Hernández</h1>
+    <p class="skills">Desarrolladora web junior con experiencia práctica creando interfaces limpias y responsivas con HTML, CSS, JavaScript y React, así como implementando lógica básica de back-end. Ha trabajado en proyectos formativos que siguen procesos reales de desarrollo, usando Git, GitHub y Figma. Disfruta colaborar en equipo, mantener un código claro y resolver problemas de forma estructurada. Motivada por seguir aprendiendo, asumir nuevos retos y aprovechar oportunidades para crecer como desarrolladora.</p>
+   <img src="./images/Foto_cv.png" alt="Foto de perfil" class="profile-pic">
+    <p class="description">
+        Desarrolladora Full-Stack JuniorTypeScript, React, Node.js
     </p>
-
-    <h2>Sección de Información</h2>
-
-    <p>
-        Aquí puedes colocar información adicional sobre un producto,
-        servicio o cualquier contenido que desees mostrar.
-    </p>
-
-    <button>Guardar</button>
-    <button>Cancelar</button>
-
-    <hr>
-
-    <h2>Contacto</h2>
-
-    <p>
-        Si tienes alguna duda, puedes comunicarte con nosotros mediante
-        los siguientes botones.
-    </p>
-
-    <button>Enviar Mensaje</button>
-    <button>Llamar</button>
-
-    <hr>
-
-    <p>
-        Gracias por visitar esta página de prueba.
-    </p>
-
+    <nav class="nav">
+    <ul class="nav-list">
+        <li><a class="nav-link">Descargar CV</a></li>
+        <li><a class="nav-link">Enlace a GitHub</a></li>
+        <li><a class="nav-link">Hablemos</a></li>
+    </ul>
+</nav>
+</section>
+<section id="habilidades" class="habilidades">
+<h2 class="skills-title">Habilidades y herramientas</h2>
+<ul class="skills-list">
+    <li><img src="./images/HTML.svg" alt="HTML5"></li>
+    <li><img src="./images/CSS.svg" alt="CSS3"></li>
+    <li><img src="./images/JavaScript.svg" alt="JavaScript"></li>
+    <li><img src="./images/Git.svg" alt="Git"></li>
+    <li><img src="./images/GitHub.svg" alt="Git y GitHub"></li>
+    <li><img src="./images/ChatGPT.svg" alt="ChatGPT"></li>
+</ul>
+</section>
+<section id="proyectos" class="projects">
+    <h2 class="projects-title">Proyectos</h2>
+    <div class="project">
+        <h3>Página web de una cafetería</h3>
+        <p>Desarrollo de una landing page responsiva para una cafetería siguiendo un brief de diseño. Incluye estructura semántica, maquetación con Flexbox, creación de secciones nuevas y un formulario de contacto funcional.Logro: Implementé desde cero el diseño completo de la página, organicé el proyecto con buenas prácticas y publiqué la versión final utilizando GitHub Pages.</p>
+    </div>
+    <div class="project">
+        <h3>Mi proyecto</h3>
+        <p>Descripción del proyecto</p>
+    </div>
+</section>
+</main>
+<footer class="footer">
+    <p>Contacto</p>
+    <p>student@tripleten.com</p>
+     <ul class="footer-nav">
+        <li><a class="footer-nav-link">Descargar CV</a></li>
+        <li><a class="footer-nav-link">Enlace a GitHub</a></li>
+        <li><a class="footer-nav-link">Hablemos</a></li>
+        <li><a class="footer-nav-link">LinkedIn</a></li>
+    </ul>
+</footer>
 </body>
 </html>
